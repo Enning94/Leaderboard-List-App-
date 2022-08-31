@@ -1,11 +1,41 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Leaderboard List</title>
 </head>
 <body>
-  <h1>Hello World</h1>
+  <h1 class="hd-cont"> Leaderboard</h1>
+  <div class="lb-cont">
+    <div class="score-wrapper">
+    <div class="title-wrapper">
+      <p>Recent Scores</p>
+      <button type="reset" class="ref-btn">Refresh</button>
+    </div>
+    <div class="scores">
+      <ul>
+        <li>Name:100</li>
+        <li class="dark-shade">Name:20</li>
+        <li>Name:50</li>
+        <li class="dark-shade">Name:78</li>
+        <li>Name:125</li>
+        <li class="dark-shade">Name:77</li>
+        <li>Name:44</li>
+      </ul>
+    </div>
+  </div>
+  <div class="input-wrapper">
+    <div>
+      <p>Add Your Score</p>
+      </div>
+      <div class="input-disp">
+      <input type="text" placeholder="Your name" class="inp-field">
+      <input type="text" placeholder="Your score" class="inp-field">
+      <button type="submit" class="sub-btn">Submit</button>
+    </div>
+  </div>
+  </div>
 </body>
 </html>
