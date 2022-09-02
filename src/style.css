@@ -68,10 +68,6 @@
   padding: 0.2rem;
 }
 
-.dark-shade {
-  background-color: rgb(163, 161, 161);
-}
-
 .score-line {
   display: flex;
 }
@@ -83,4 +79,8 @@ ul {
 li {
   text-decoration: none;
   padding-left: 0.3rem;
+}
+
+li:nth-child(even) {
+  background-color: rgb(163, 161, 161);
 }
