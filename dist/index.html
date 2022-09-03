@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Leaderboard List</title>
-<script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script></head>
-<body>
-  <h1 class="hd-cont"> Leaderboard</h1>
-  <div class="lb-cont">
-    <div class="score-wrapper">
-    <div class="title-wrapper">
-      <p>Recent Scores</p>
-      <button type="reset" class="ref-btn">Refresh</button>
-    </div>
-    <div class="scores">
-      <ul id = "score">
-      </ul>
-    </div>
-  </div>
-  <div class="input-wrapper">
-    <div>
-      <p>Add Your Score</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard List</title>
+  <script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script></head>
+  <body>
+    <h1 class="hd-cont">Leaderboard</h1>
+    <p class="score-board">Welcome to the Score Board</p>
+    <div class="lb-cont">
+      <div class="player"></div>
+      <div class="score-wrapper">
+        <div class="title-wrapper">
+          <p class="titles">Recent Scores</p>
+          <button type="reset" class="ref-btn">Refresh</button>
+        </div>
+        <div class="scores">
+          <ul id="score"></ul>
+        </div>
       </div>
-      <form class="input-disp">
-      <input type="text" placeholder="Your name" class="name-field">
-      <input type="text" placeholder="Your score" class="score-field">
-      <button type="submit" class="sub-btn">Submit</button>
-      </form>
-  </div>
-  </div>
-</body>
+      <div class="input-wrapper">
+        <div>
+          <p class="titles">Add Your Score</p>
+        </div>
+        <form class="input-disp">
+          <input type="text" placeholder="Your name" class="name-field" />
+          <input type="text" placeholder="Your score" class="score-field" />
+          <button type="submit" class="sub-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
